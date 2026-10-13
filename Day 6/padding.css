@@ -1,0 +1,30 @@
+/* .box {
+    border: 1px solid black;
+    padding: 50px 20px 30px 60px;
+} */
+
+.box {
+    border: 20px solid blue;
+    padding: 25px 50px;
+    /* margin: 100px 50px;  */
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+}
+
+.box2 {
+    background-color: aquamarine;
+    height: 200px;
+    width: 300px;
+}
+
+/* height: height + padding + border
+width: width + padding + border
+ */
+ /* width: 300 + 50px + 50px + 20px + 20px = 440px */
+
+ /* height: 200 + 25 + 25 + 20 + 20 = 290 */
+
+* {
+    margin: 0;
+}

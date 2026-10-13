@@ -1,0 +1,42 @@
+
+/* Element selector */
+/* div {
+    font-size: 54px;
+} */
+
+/* ID selector */
+/* #portfolio {
+    font-size: 54px;
+} */
+
+/* #name {
+    font-size: 32px;
+}
+
+#Designation {
+    font-size: 32px;
+}
+
+#languagesSpoken {
+    font-size: 32px;
+} */
+
+/* Grouping selectors */
+/* #name, #Designation, #languagesSpoken  {
+    font-size: 32px;
+} */
+
+/* Class selector */
+
+/* .information {
+    font-size: 32px;
+} */
+
+/* .information {
+    font-size: 42px;
+} */
+
+
+/* * {
+    margin: 0;
+} */

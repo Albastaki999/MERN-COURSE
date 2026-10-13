@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+body {
+    padding: 0 50px;
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.box1 {
+    margin-top: 50px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+}
+
+.box3 {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}

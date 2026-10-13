@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 300px;
+            width: 300px;
+        }
+
+        /* Whatever number you put, that is how the box is displayed */
+        /* Absolute units */
+        .container {
+            height: 50%; /*250px*/
+            width: 50%;
+            border: 1px solid blue;
+        }
+
+        /* Parent: container */
+        /* Relationship Parent-Child */
+        /* Relative units */
+        .box1 {
+            border: 1px solid red;
+        }
+
+        .box2 {
+            border: 1px solid green;
+        }
+
+        .box {
+            height: 50%; /* 125 */
+            width: 50%;
+        }
+
+        .subbox1 {
+            height: 25%; /* 125 / 4 */
+            width: 25%;
+            border: 1px solid violet;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Parent -->
+    <div class="container">
+        <!-- Child -->
+        <div class="box1 box">
+            <div class="subbox1"></div>
+        </div>
+        <div class="box2 box">
+            <div class="subbox2"></div>
+        </div>
+    </div>
+</body>
+
+</html>

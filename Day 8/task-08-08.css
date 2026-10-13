@@ -1,0 +1,22 @@
+img {
+    height: 300px;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+
+.info-container {
+    padding: 0 10px;
+}
+
+.box-container {
+    display: none;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}

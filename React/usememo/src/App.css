@@ -1,0 +1,6 @@
+.count {
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
